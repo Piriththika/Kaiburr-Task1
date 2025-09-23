@@ -9,7 +9,7 @@ The objective of the task is to build a Spring Boot REST API integrated with Mon
 4. Delete tasks
 5. Search tasks 
 6. Execute tasks and
-7. store their output
+7. Store their output
 
 This solution demonstrates how to use Java, Spring Boot, and MongoDB to design and implement a complete backend system for task management.
 
@@ -36,16 +36,16 @@ Before running the project, ensure you have the following installed:
 **Setup and Installation**
 
 1. Clone this repository:
-    git clone https://github.com/Piriththika/Kaiburr-Task1.git
-    cd Kaiburr-Task1
+       git clone https://github.com/Piriththika/Kaiburr-Task1.git
+       cd Kaiburr-Task1
 
 2. Start MongoDB server:
-    mongod --dbpath C:\data\db
-    Ensure that the folder C:\data\db exists on your system. If it does not exist, locate where MongoDB is installed and set the path correctly.
+       mongod --dbpath C:\data\db
+   Ensure that the folder C:\data\db exists on your system. If it does not exist, locate where MongoDB is installed and set the path correctly.
 
 3. Build and run the Spring Boot application:
-    mvn clean install
-    mvn spring-boot:run
+       mvn clean install
+       mvn spring-boot:run
 
 The application will start on http://localhost:8080
 
