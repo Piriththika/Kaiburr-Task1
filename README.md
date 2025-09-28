@@ -36,16 +36,16 @@ Before running the project, ensure you have the following installed:
 **Setup and Installation**
 
 1. Clone this repository:
-       ```git clone https://github.com/Piriththika/Kaiburr-Task1.git
-       cd Kaiburr-Task1```
+       ```git clone https://github.com/Piriththika/Kaiburr-Task1.git```
+       ```cd Kaiburr-Task1```
 
 2. Start MongoDB server:
        ```mongod --dbpath C:\data\db```
    Ensure that the folder C:\data\db exists on your system. If it does not exist, locate where MongoDB is installed and set the path correctly.
 
 3. Build and run the Spring Boot application:
-       ```mvnd clean install
-       mvnd spring-boot:run```
+       ```mvnd clean install```
+      ``` mvnd spring-boot:run```
 
 The application will start on http://localhost:8080
 
